@@ -12,3 +12,13 @@ request.get('https://api.external.thegoodseat.fr/loginuser', {
 
 });
 
+
+// appel API pour s'enregistrer (register)
+
+request.get('https://api.external.thegoodseat.fr/registeruser', {
+  'auth': {
+    'user': 'username',
+    'pass': 'WkaejKFztN6Tz1cIPi35M7UcvyYwPZcS6ixumJaP'
+  }
+
+});
